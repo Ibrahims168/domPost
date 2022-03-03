@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(186, 202, 248);
+}
+.h1Input{
+    color: aliceblue;
+}
+.contentContainer{
+    display: grid;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+#inputContainer{
+    text-align: center;
+    height: 150px;
+    border-radius: 10px;
+    background-color: aliceblue;}
+#btn{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+#btn:hover{
+    background-color: rgb(245, 161, 105);
+    transition: 0.4s;
+}
