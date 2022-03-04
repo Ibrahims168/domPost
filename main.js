@@ -29,8 +29,6 @@
 const input = document.querySelector('#inputContainer')
 const btn = document.getElementById('btn')
 const body = document.getElementsByTagName('body')[0]
-const img = document.getElementById('profilePic')
-const name = document.getElementsByClassName('name')
 
 const createPost = function () {
     const text = input.value
@@ -38,6 +36,9 @@ const createPost = function () {
     const post = document.createElement('h1')
     const hr = document.createElement('hr')
     const name = document.createElement('h2')
+    const comment = document.createElement('input')
+    comment.innerHTML = input
+    comment.style.
     post.innerText = text
     name.innerText = "Ibrahim Sharif"
     name.style.marginLeft = "10%"
@@ -45,7 +46,7 @@ const createPost = function () {
     img.style.width = "70px"
     img.style.borderRadius = "50%"
     img.src = 'images/nft2.jpg'
-    body.append(img,name,post,hr)
+    body.append(img,name,post,comment,hr)
     input.value = ''
 }
 btn.addEventListener('click', createPost)
