@@ -1,34 +1,8 @@
 
-
-// const createPost = function (){
-//     const text = input.value
-//     const img = document.createElement('img')
-//     const name = document.createElement('h3')
-//     const post = document.createElement('h2')
-//     img.innerHTML = img
-//     name.textContent = name
-//     post.innerText = text 
-//     body.append(post)
-//     input.value = ''
-// }
-// btn.addEventListener('click', createPost)
-
-// input.addEventListener('keydown', function (event) {
-//     if (event.key == 'Enter') {
-//         createPost()
-//     }
-// })
-
-
-
-
-
-
-
-
 const input = document.querySelector('#inputContainer')
 const btn = document.getElementById('btn')
 const body = document.getElementsByTagName('body')[0]
+
 
 const createPost = function () {
     const text = input.value
@@ -37,6 +11,7 @@ const createPost = function () {
     const hr = document.createElement('hr')
     const name = document.createElement('h3')
     const like = document.createElement("h1")
+
 
     like.innerText = "like"
     like.style.color = "gray"

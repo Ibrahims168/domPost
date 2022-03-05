@@ -81,7 +81,7 @@ body{
     right: 0;
     transform: rotate(45deg);
     border-radius: 100px 100px 7px 0;
-    display: none;
+    display: none !important;
 }
 .heart:before{
     position: absolute;
