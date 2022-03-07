@@ -59,7 +59,24 @@ body{
     background-color: rgb(39, 151, 73);
     transition: 0.4s;
 }
-
+.postContainer{
+    background-color: rgb(233, 233, 233);
+    box-shadow: 0 0 5px rgb(177, 177, 179);
+    padding-left:2%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    margin-bottom: 20px;
+}
+.likee{
+    margin-left: 60%;
+    height: 30px;
+    border-radius: 10px;
+    transition: 0.2s;
+    color: gray;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
 
 /*------- making a heart ------------*/
 
@@ -74,14 +91,10 @@ body{
     height: 200px;
     width: 125px;
     position: absolute;
-    margin: auto;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    margin-left: 60%;
     transform: rotate(45deg);
     border-radius: 100px 100px 7px 0;
-    display: none !important;
+   display: none;
 }
 .heart:before{
     position: absolute;
