@@ -7,9 +7,9 @@ body{
 }
 @media(max-width: 700px){
     #profilePic{
-        width: 40px;
-        height: 40px;
-        margin-left: -10px;
+        width: 50px;
+        height: 50px;
+        margin-left: -15px;
         margin-bottom: -15px;
     }
     #inputContainer{
@@ -20,6 +20,9 @@ body{
         font-size: large;
         font-weight: 600;
     }
+    .btns{
+        color: royalblue;
+      }
 }
 .name{
     color: rgb(37, 36, 36);
@@ -108,3 +111,18 @@ body{
     border-radius: 0 7px 100px 100px;
 }
     
+
+.btns{
+    width: 30%;
+    height: 25px;
+    margin-left: 10px;
+    border: none;
+    background-color: white;
+    color: royalblue;
+    transition: 0.2s;
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
