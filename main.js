@@ -70,7 +70,8 @@ const createPost = function () {
         }
     }
 
-    like.style.color
+    like.style.color = "gray"
+    comment.style.color = "gray"
     like.addEventListener('click', likeBtn)
 
     const commentBtn = function () {
